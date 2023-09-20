@@ -8,8 +8,8 @@ http
         fileStream.on('open', () => {
             fileStream.pipe(res)
         })
-        fileStream.on('error', (err) => {
-            res.end(err)
+        fileStream.on('error', (error) => {
+            res.end(error)
         })
     })
     .listen(5000)
