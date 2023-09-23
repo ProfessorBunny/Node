@@ -9,7 +9,7 @@ const server = http.createServer()
 // emits request event
 // subcribe to it, listen for it, respond to it
 server.on('request', (req, res) => {
-    res.end('Welcome')
+    res.end('Welcome to out home page')
 })
 
 server.listen(5000)
