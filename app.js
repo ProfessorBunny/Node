@@ -7,7 +7,6 @@ const getText = (path) => {
         reject(err);
       } else {
         resolve(result);
-        console.log(result);
       }
     });
   });
